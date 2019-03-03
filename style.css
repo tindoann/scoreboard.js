@@ -14,7 +14,7 @@ body {
 main {
   display: flex;
   align-items: flex-start;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: #ff7700;
   height: 100%;
 }
@@ -32,6 +32,7 @@ h1 {
 
 ul {
   list-style: none;
+  text-align: center;
   font-size: 1rem;
   line-height: 2rem;
 }
@@ -41,6 +42,7 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 2px solid red;
 }
 
 .score-team-a,
@@ -50,13 +52,16 @@ section {
 
 .team-a-name,
 .team-b-name {
+  height: 100%; 
+  width: 100%;
   font-size: 2rem;
+  text-align: center; 
 }
 
 button {
   width: 5rem;
   height: 2rem;
-  margin: 5px;
+  margin: 10px;
   padding: 5px 10px;
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
