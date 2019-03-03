@@ -1,0 +1,91 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  font: 16px / 1 sans-serif;
+  background-color: #ecebe4;
+  color: #2b2d42;
+  height: 100%;
+}
+
+main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: #ff7700;
+  height: 100%;
+}
+
+header {
+  background-color: #004777;
+  padding: 1.5rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  color: #ec0b43;
+}
+
+ul {
+  list-style: none;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-team-a,
+.score-team-b {
+  font-size: 3rem;
+}
+
+.team-a-name,
+.team-b-name {
+  font-size: 2rem;
+}
+
+button {
+  width: 5rem;
+  height: 2rem;
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px transparent;
+  border-radius: 4px;
+  color: white;
+  background-color: #ccc;
+}
+
+button:hover {
+  box-shadow: 0 0 5px 3px #004777;
+}
+
+#new-team-a-name,
+#new-team-b-name {
+  height: 1.5rem;
+}
+
+.update-team-a-name,
+.update-team-b-name {
+  background-color: rgb(150, 150, 150);
+}
+
+.add-for-team-a,
+.add-for-team-b {
+  background-color: green;
+}
+
+.subtract-for-team-a,
+.subtract-for-team-a {
+  background-color: red;
+}
